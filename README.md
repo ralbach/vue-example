@@ -1,5 +1,3 @@
-# vue-vuex-registration-login-example
+# vue-todo-list
 
-Vue + Vuex - User Registration and Login Tutorial & Example
-
-To see a demo and further details go to http://jasonwatmore.com/post/2018/07/14/vue-vuex-user-registration-and-login-tutorial-example
+Simple ToDo list to learn about and interact with Vue in a local sandbox environment.
