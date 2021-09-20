@@ -1,19 +1,14 @@
 import Vue from 'vue';
-import VeeValidate from 'vee-validate';
-
-import { store } from './_store';
-import { router } from './_helpers';
 import App from './app/App';
 
-Vue.use(VeeValidate);
-
-// setup fake backend
-import { configureFakeBackend } from './_helpers';
-configureFakeBackend();
+import todo from './app/todo'
 
 new Vue({
     el: '#app',
-    router,
-    store,
-    render: h => h(App)
+    render: h => h(App),
+    components: {
+        'todo': todo, 
+    }
 });
+
+Vue.component(todo)
